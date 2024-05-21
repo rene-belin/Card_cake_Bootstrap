@@ -1,3 +1,46 @@
-h1{
-    color: rgb(154, 142, 142);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f6f2;
+}
+
+h1 {
+    color: rgb(194, 154, 102);
+}
+
+h4,
+h4.card-title {
+    color: rgb(194, 154, 102);
+}
+
+.card-img-top {
+    border-radius: 40px;
+    padding: 20px;
+
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.063 0.63rem;
+    border: 1px solid burlywood;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+}
+
+.btn-primary:hover {
+    background-color: black;
 }
